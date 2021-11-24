@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(229, 229, 229);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(20, 33, 61);
+    margin:  0px  ;
+    padding-bottom: 20px;
+    border-radius:50px 50px 0px 0px  ;
+    color: #fff ;
+  }
+  .picture{
+    display: block;  
+    margin: auto;
+    
+  
+  }
+  #trybe{
+  color: seagreen;
+  font-weight: 900;
+  }
+  #header{
+    
+  }
