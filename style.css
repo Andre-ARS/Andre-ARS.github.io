@@ -15,10 +15,12 @@ body{
     border-radius:50px 50px 0px 0px  ;
     color: #fff ;
   }
-  .picture{
-    display: block;  
-    margin: auto;
+  #descriçao img{
     
+    margin: auto;
+    border-radius: 100%;
+    width: 300px;
+    float: left;
   
   }
   #trybe{
@@ -31,4 +33,6 @@ body{
   #descriçao{
     border: solid yellow 4px;
     background-color: rgb(252, 163, 17);
+    display: inline-block;
+    width: 100%;
   }
