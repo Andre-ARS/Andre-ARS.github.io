@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guess | Trybe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="background blur">
+        <header>
+            <h1 id="title">Adivinhe a Cor!</h1>
+        </header>
+        <main>
+            <section id="text">
+                <p id="rgb-color"></p>
+                <p id="score"></p>
+            </section>
+            <section id="colors">
+            </section>
+            <section>
+                <p id="answer">Escolha uma cor</p>
+            </section>
+            <section id="buttons">
+                <select class="button" name="difficulty" id="level">
+                    <option value="3">Fácil</option>
+                    <option value="6">Normal</option>
+                    <option value="9">Dificil</option>
+                </select>
+                <button class="button" type="button" id="reset-game">Próximo</button>
+            </section>
+        </main>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
