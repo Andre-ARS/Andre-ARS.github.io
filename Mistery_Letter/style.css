@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: Oswald, sans-serif;
+}
+
+body { 
+    background-color:  rgb(57, 122, 131);
+    
+}
+
+.letter {
+    display: flex; 
+    justify-content: start;  
+    width: 84%;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(255, 252, 238);
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    border-radius: 10px;
+}
+
+#carta-gerada span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilo */
+.newspaper {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.magazine1 {
+    background-color: teal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url(images/pink-pattern.png);
+    color: fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+/* Tamanho */
+.medium {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* Rotação */
+.rotateleft {
+    transform: rotate(-5deg);
+}
+
+.rotateright {
+    transform: rotate(5deg);
+}
+
+/* Inclinação */
+.skewleft {
+    transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
+
+#input {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    width: 84%;
+    border-radius: ;
+}
+
+#carta-texto {
+    width: 84%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 1px rgba(245, 245, 245, 0.753);
+}
+
+#carta-contador {
+    width: 3%;
+    color: rgb(197, 226, 235);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgb(8, 22, 22);
+    border-radius: 5px;
+    border: solid 1px rgba(245, 245, 245, 0.377);
+
+}
+
+#criar-carta {
+    font-size: 18px;
+    border-radius: 5px;
+    border: solid 1px rgba(245, 245, 245, 0.397);
+    background-color: rgb(146, 167, 179);
+}
